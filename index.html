@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body class="container">
+    <div class="fixed-top container">
+        <header class="fw-bold">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="" width="220" height="38" class="d-inline-block align-text-top">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#woman's-jacket">woman's Jacket</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#man's-jacket">Man's Jacket</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#about-us">About us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <!-- first section -->
+    <section class="bg-light py-3 d-flex flex-md-row flex-column align-items-center justify-content-center pt-5">
+        <article class="container-fluid">
+            <h1 class="fw-bold text-warning">BE THE PENGUINS <br> <span class="text-dark">OF WINTER</span></br></h1>
+            <p>Click on the button below and go to the console to see what happend</p>
+            <a class="btn bg-dark text-white" onclick="listenerFunction()"><img src="icons/cart.png" width="24"
+                    height="24" alt=""> BUY
+                NOW</a>
+        </article>
+        <div><img class="img-fluid pt-5" src="images/model.png" alt=""></div>
+    </section>
+    <!-- woman's items -->
+    <section id="woman's-jacket" class="bg-white container py-5">
+        <h1 class="ps-5 text-md-start text-sm-center">Woman Jacket</h1>
+        <!-- card -->
+        <div class="row justify-content-evenly gy-5">
+            <div class="col-lg-4 card" style="width: 18rem;">
+                <img src="images/jacket-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p>
+                    <div class="d-flex justify-content-between">
+                        <h3 class="text-warning">$234</h3>
+                        <a class="btn bg-dark text-white buyNowBtn"><img src="icons/cart.png" width="24" height="24"
+                                alt="">
+                            BUY
+                            NOW</a>
+                    </div>
+                </div>
+            </div>
+            <!-- card -->
+            <div class="col-lg-4 card" style="width: 18rem;">
+                <img src="images/jacket-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p>
+                    <div class="d-flex justify-content-between">
+                        <h3 class="text-warning">$234</h3>
+                        <a class="btn bg-dark text-white buyNowBtn"><img src="icons/cart.png" width="24" height="24"
+                                alt="">
+                            BUY
+                            NOW</a>
+                    </div>
+                </div>
+            </div>
+            <!-- card -->
+            <div class="col-lg-4 card" style="width: 18rem;">
+                <img src="images/jacket-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p>
+                    <div class="d-flex justify-content-between">
+                        <h3 class="text-warning">$234</h3>
+                        <a class="btn bg-dark text-white buyNowBtn"><img src="icons/cart.png" width="24" height="24"
+                                alt="">
+                            BUY
+                            NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- men's item -->
+    <section id="man's-jacket" class="bg-white mt-5">
+        <h1 class="ps-5 text-md-start text-sm-center">Man Jacket</h1>
+        <!-- card -->
+        <div class="row justify-content-evenly gy-5">
+            <div class="card" style="width: 18rem;">
+                <img src="images/jacket-4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <div class="d-flex justify-content-between">
+                        <h3 class="text-warning">$234</h3>
+                        <a class="btn bg-dark text-white buyNowBtn"><img src="icons/cart.png" width="24" height="24"
+                                alt=""> BUY
+                            NOW</a>
+                    </div>
+                </div>
+            </div>
+            <!-- card -->
+            <div class="card" style="width: 18rem;">
+                <img src="images/jacket-5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <div class="d-flex justify-content-between">
+                        <h3 class="text-warning">$234</h3>
+                        <a class="btn bg-dark text-white buyNowBtn"><img src="icons/cart.png" width="24" height="24"
+                                alt=""> BUY
+                            NOW</a>
+                    </div>
+                </div>
+            </div>
+            <!-- card -->
+            <div class="card" style="width: 18rem;">
+                <img src="images/jacket-6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <div class="d-flex justify-content-between">
+                        <h3 class="text-warning">$234</h3>
+                        <a class="btn bg-dark text-white buyNowBtn"><img src="icons/cart.png" width="24" height="24"
+                                alt=""> BUY
+                            NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- info -->
+    <section id="about-us" class="row my-5">
+        <div class="info col-lg-6 col-sm-12">
+            <div class="little-card d-flex align-items-center">
+                <img class="me-3" src="icons/home.png" height="82" width="78" alt="">
+                <div>
+                    <h3 class="py-1">Find the Perfect Fit</h3>
+                    <p>Everybody is different,which is why we offer styles for every body. </p>
+                </div>
+            </div>
+            <div class="little-card d-flex align-items-center">
+                <img class="me-3" src="icons/box.png" height="82" width="78" alt="">
+                <div>
+                    <h3 class="py-1">Find the Perfect Fit</h3>
+                    <p>Everybody is different,which is why we offer styles for every body. </p>
+                </div>
+            </div>
+            <div class="little-card d-flex align-items-center">
+                <img class="me-3" src="icons/headset.png" height="82" width="78" alt="">
+                <div>
+                    <h3 class="py-1">Find the Perfect Fit</h3>
+                    <p>Everybody is different,which is why we offer styles for every body. </p>
+                </div>
+            </div>
+        </div>
+        <div class="image mt-5 col-lg-6 col-sm-12">
+            <img class="img-fluid" src="images/shopping.png" alt="">
+        </div>
+    </section>
+    <section class="contact-us mb-5" id="contactContainer">
+        <p>write 'approve me' in the input box below to activate the submit button</p>
+        <input class="w-25 text-center" id="inputForDisabledBtn" type="text" placeholder="approve me">
+        <button class="btn btn-dark" id="disabledBtn" disabled>Submit</button>
+    </section>
+
+
+
+    <!-- bootstrap js link -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- custom javascript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
