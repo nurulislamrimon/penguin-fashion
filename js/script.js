@@ -37,3 +37,16 @@ function disabledFunction() {
         disabledBtn.setAttribute("disabled", true)
     }
 }
+
+// top section image src modified
+const firstCardImg = document.getElementById("firstCardImg");
+firstCardImg.addEventListener("mouseenter", function () {
+    firstCardImg.src = "images/jacket-6.png";
+})
+
+// double click Event
+document.addEventListener("dblclick", function () {
+    document.body.style.backgroundColor = "black";
+    document.body.style.color = "red";
+
+})
